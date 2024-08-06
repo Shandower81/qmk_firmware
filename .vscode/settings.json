@@ -30,5 +30,33 @@
     },
     "clangd.arguments": [
         "--header-insertion=never"
-    ]
+    ],
+    "terminal.integrated.profiles.windows": {
+
+        "MSYS2": {
+            "path": "C:\\msys64\\usr\\bin\\bash.exe",
+            "args": [
+                "--login",
+                "-i"
+            ],
+            "env": {
+                "MSYSTEM": "MINGW64",
+                "CHERE_INVOKING": "1"
+            }
+        },
+
+        "MSYS2 MINGW64 1": {
+            "path": "C:\\msys64\\mingw64.exe",
+            "args": [
+                "C:\\msys64\\msys2_shell.cmd -defterm -here -no-start -ming64"
+            ]
+        },
+
+        "MYSYS2 MINGW64 2": {
+            "path": ["C:\\msys64\\usr\\bin\\bash.exe"],
+            "args": ["-l"],
+            "env": { "MSYSTEM": "MINGW64" },
+            "overrideName": true
+        }
+    }
 }
