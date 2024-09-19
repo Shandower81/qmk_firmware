@@ -10,8 +10,8 @@
         "**/*.uf2": true
     },
     "files.associations": {
-        "*.h": "c",
-        "*.c": "c",
+        "*.h": "csharp",
+        "*.c": "csharp",
         "*.inc": "c",
         "*.cpp": "cpp",
         "*.hpp": "cpp",
