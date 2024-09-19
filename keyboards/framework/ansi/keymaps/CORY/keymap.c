@@ -12,8 +12,8 @@ enum _layers {
 };
 //
 //                               [ Default Layers ]    \|/ Virtual Layers \|/  Full Layer    # of ACTIVE  ACTIVE RGB   Current Defualt   X_val Challenge
-//                               [_BASE] [_FN_LOCK]    caps_XX sft_XX ctrl_XX    fn_XX       Layers       LAYER        Layer             Value          
-//  ARRAY POSITION VALUES:   x =  0      1             2       3      4          5           6            7            8                 9               
+//                               [_BASE] [_FN_LOCK]    caps_XX sft_XX ctrl_XX    fn_XX       Layers       LAYER        Layer             Value
+//  ARRAY POSITION VALUES:   x =  0      1             2       3      4          5           6            7            8                 9
 static int  HOLD_L[10]         = {1,     0,            0,      0,     0,         0,          0,           2,           0,                0               };
 static bool HOLD_RC[6]         = {true,  false,        false,  false, false,     false};
 static bool HOLD_TF[6]         = {true,  false,        false,  false, false,     false};
@@ -118,7 +118,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
        _______,      _______, QK_BOOT, RGB_STEP,          RGB_TOG,                   _______, _______, KC_HOME, KC_PGUP, KC_PGDN, KC_END
     )
 };
-        
+
 
 // I kept having to repeat portions so i condensed it as much as possible
 // in this snippet although a few hiccups stopped me from getting it more condensed

@@ -21,19 +21,19 @@
 #include "keyboard.h"
 
 #ifdef BACKLIGHT_ENABLE
-#    include "backlight.h"
+#include "backlight.h"
 #endif
 
 #ifdef LED_MATRIX_ENABLE
-#    include "led_matrix.h"
+#include "led_matrix.h"
 #endif
 
 #if defined(RGBLIGHT_ENABLE)
-#    include "rgblight.h"
+#include "rgblight.h"
 #endif
 
 #ifdef RGB_MATRIX_ENABLE
-#    include "rgb_matrix.h"
+#include "rgb_matrix.h"
 #endif
 
 #include "keymap_common.h"

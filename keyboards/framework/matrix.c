@@ -289,8 +289,7 @@ bool handle_idle(void) {
             // turning on. But the quantum code will have set it properly
             // already, so there's no need to run this. Unless we actually wake
             // up from sleep.
-
-            // backlight_enable_old_level();
+            backlight_enable_old_level();
         }
     }
 #endif

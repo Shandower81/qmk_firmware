@@ -213,6 +213,7 @@ bool process_rgb(const uint16_t keycode, const keyrecord_t *record) {
                 return false;
         }
     }
+    }
 
     return true;
 }
